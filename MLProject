@@ -6,5 +6,5 @@ entry_points:
   main:
     parameters:
       convSize: {type: int, default: 3}
-      epochs: {type: int, default: 1000}
+      epochs: {type: int, default: 10}
     command: "python Train_TensorFlow.py {convSize} {epochs}"
